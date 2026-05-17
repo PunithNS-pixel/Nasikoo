@@ -158,6 +158,9 @@ cython_debug/
 
 # macOS files
 .DS_Store
-
+# Secret files
+.nasiko-local.env
+.nasiko-local.env.example
+docker-compose.local.yml
 # Sensitive credentials
 superuser_credentials.json
